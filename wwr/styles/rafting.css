@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #94ECBE; 
+    --secondary-color: #008300; 
+    --accent-color: #FDCA40; 
+    --background-color: #30BCED; 
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-family: 'Rock Salt'
+}
+
+p {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: "Smooch Sans"
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1200px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    background-color: var(--background-color);
+    float: right;
+    width: 100px;
+    transform: translateX(-50%);
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.sociallinks a img {
+    width: 30px;  /* Adjust the size of the logos */
+    height: auto;
+}

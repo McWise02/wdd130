@@ -1,0 +1,12 @@
+primary-color 30BCED
+secondary-color FDCA40
+accent1-color 008300
+accent2-color 94ECBE
+
+https://coolors.co/30bced-008300-94ecbe-fdca40
+
+styles
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+
