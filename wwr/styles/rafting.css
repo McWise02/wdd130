@@ -5,6 +5,21 @@
     --background-color: #30BCED; 
 }
 
+header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
 header nav a {
     text-decoration: none;
 }
@@ -20,12 +35,62 @@ p {
     font-family: "Smooch Sans"
 }
 
+.History {
+    display: grid;
+    grid-template-rows: auto 1fr; /* First row takes 1/3, second row takes 2/3 */
+    grid-template-columns: 1fr;  /* Single-column layout */
+    justify-items: center;       /* Centers items horizontally */
+    align-items: center;         /* Centers items vertically */
+  }
+
+.History div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.History img {
+    width: 200px;  /* Set a specific width */
+
+}
+
+.adventure {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: auto auto;
+}
+
+.adventureimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.adventureimg div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adventureimg img{
+    width: 150px;
+}
+.adventureimages {
+    width: 100px;
+    height: auto;
+    padding: 10px
+}
+
 .sociallinks a {
     text-decoration: none;
 }
 
 body {
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -36,9 +101,9 @@ body {
 
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+
 }
+
 
 .hero h1 {
     position: absolute;
@@ -71,4 +136,10 @@ body {
 .sociallinks a img {
     width: 30px;  /* Adjust the size of the logos */
     height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
