@@ -6,22 +6,24 @@
 }
 
 header {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
 
   }
   
 header nav {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-left: 50px;
     
 }
 
 header nav a {
     text-decoration: none;
+    padding: 20px;
 }
 
 h1 {
@@ -49,9 +51,14 @@ p {
     justify-content: center;
     
 }
+.History p {
+    max-width: 300px;
+
+}
 .History img {
     width: 200px;  /* Set a specific width */
-
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .adventure {
@@ -86,22 +93,25 @@ p {
 }
 
 body {
-    max-width: 1200px;
+    max-width: fit-content;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.hero {
-    position: relative;
-    width: 100%;
-    height: 500px;
 }
 
 .hero img {
     display: block;
-
+    width: 1000px;
 }
 
 
@@ -116,9 +126,6 @@ body {
     z-index: 2;
 }
 
-.hero article {
-    position: absolute;
-}
 
 .hero article img {
     background-color: var(--background-color);
@@ -129,17 +136,19 @@ body {
 
 .sociallinks {
     display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px
 }
 
 .sociallinks a img {
     width: 30px;  /* Adjust the size of the logos */
     height: auto;
+    padding: 10px
 }
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
