@@ -1,37 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <link rel="stylesheet" href="styles/styles.css">
         <meta charset="utf-8">
+        <meta name="description" content="Micah D Brown, WDD130. The purpose of this page is to help users contact representatives of the White Water Rafting Co..">
+        <meta name="author" content="Micah Brown">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="Micah D Brown, WDD130. The purpose of this page is to display the skills that I have learned throughout the course and tell a little about myself.">
-        <meta name="author" content="Your name">
-        <title>Micah Brown | WDD 130</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+        <title>Contact Us: White Water Rafting</title>
     </head>
     <body>
         <header>
+            <div class="logo">
+                <img src="images/rafting-logo.jpg" alt="WWR Logo">
+            </div>
             <nav>
-              <a href="#">Home</a>
-              <a href="wwr/">Rafting Website</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </header>
+        
         <main>
-            <h1>
-                Micah D Brown | WDD 130
-            </h1>
-            <img src="images\profile.jpg" alt="Hello my name is Miach" width="200">
+
+            <section class="hero">
+                <img src="images/rafting-1.jpg" alt="White Water Rafting" class="hero-image">
+                <div class="hero-content">
+                    <h1>Ready for the Ultimate Adventure?</h1>
+                    <p>Join us on an unforgettable white water rafting experience across Europe's most exciting rivers!</p>
+                </div>
+            </section>
+
+
+            <section class="newsletter-signup">
+                <h2>Stay Updated!</h2>
+                <p>Sign up for our newsletter and get the latest rafting trips, tips, and special offers straight to your inbox.</p>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+
+
+            <section class="cta">
+                <h2>Book Your Adventure Today!</h2>
+                <p>Don't miss out on the adventure of a lifetime! Visit our trips page to find out more about the best rafting experiences across Europe.</p>
+                <a href="trips.html" class="cta-button">Explore Our Trips</a>
+            </section>
+
+
+            <section class="grid-layout">
+                <div class="grid-item">
+                    <img src="images/rafting-3.jpg" alt="Rafting Adventure">
+                    <h3>Exciting Rapids</h3>
+                    <p>Feel the rush as you navigate through thrilling rapids, perfect for adrenaline junkies looking for a challenge!</p>
+                </div>
+                <div class="grid-item">
+                    <img src="images/rafting-5.jpg" alt="Scenic River View">
+                    <h3>Stunning Views</h3>
+                    <p>Relax and take in breathtaking views of majestic mountains, rolling hills, and lush forests along your journey.</p>
+                </div>
+            </section>
         </main>
-        <aside>
-            <h2>Germany</h2>
-            <img src="images/germany.jpg" alt="A scenic view of Germany" width="200">
-            <p>
-                Germany is a country located in the heart of Europe, known for its rich history, vibrant culture, and stunning landscapes. From the bustling streets of Berlin to the serene beauty of the Bavarian Alps, it offers a unique blend of tradition and modernity.
-            </p>
-        </aside>
+
         <footer>
-            <p>
-                ©️2025 | Micah Brown | Frankfurt, Germany
-            </p>
+            <p>&copy; 2025 WWR Rafting Adventures | Designed by Micah Brown</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook-logo.jpg" alt="Facebook"></a>
+                <a href="https://twitter.com"><img src="images/twitter-logo.jpg" alt="Twitter"></a>
+                <a href="https://instagram.com"><img src="images/instagram-logo.jpg" alt="Instagram"></a>
+            </nav>
         </footer>
-    </body>  
+    </body>
 </html>
