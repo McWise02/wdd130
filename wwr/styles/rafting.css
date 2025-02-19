@@ -251,3 +251,62 @@ iframe {
     height: 450px;
     width: 600px;
 }
+
+/* Trip Gallery Styles */
+.trip-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trip-gallery a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.trip-gallery img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.trip-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Trip Table Styles */
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-spacing: 15px; /* Adjust column spacing */
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #0077b6;
+    color: white;
+    font-size: 1.2em;
+}
+
+.trips-header {
+    display: flex;
+    justify-content: center;
+}
+
+.trips-p{
+    display:flex;
+    justify-content: center;
+}
+
+.table-div{
+    display:flex;
+    justify-content: center;
+}
